@@ -1,6 +1,6 @@
 package com.hanisha.interfaces;
 
-interface A{
+interface InterfaceA{
 	void m1();
 }
 interface B extends A{
@@ -15,6 +15,11 @@ public class Sample4 implements B{
 		
 	}
 	public void m2() {
+		
+	}
+	@Override
+	public void d() {
+		// TODO Auto-generated method stub
 		
 	}
 
